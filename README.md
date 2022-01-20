@@ -1,6 +1,6 @@
 # SCONlite
 #### **S**emicolon **C**ut **O**bject **N**otation
-A better way to dictonary 
+A better way to dictionary 
 ## Build Info
 Version: 1.0 (Limited)  
 Build: Latest (Jan 20 2022 @ 6:21 PM EST)  
