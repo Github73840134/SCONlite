@@ -81,5 +81,5 @@ Happy database creation!
 # Coming Soon
 - Micropython port
 ***
-Check out other builds such as `experimental` or `developer`
+Check out other builds such as `experimental` or `developer`  
 ©2022 Github73840134
