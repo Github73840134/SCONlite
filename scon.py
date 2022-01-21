@@ -94,15 +94,20 @@ def parse(text):
 				cw = ''
 				listmode = False
 				wastring = False
-		elif cw == '\n' and string:
+		elif cw == '\n':
 			if string:
 				value += '\n'
 			cw = ''
-		elif cw == '\t' and string:
+		elif cw == '\t':
 			if string:
 				value += '\t'
 			cw = ''
-		elif cw == '\n' or cw == '\t' or cw == ' ' and string == False:
+		
+		elif cw == ' ':
+			if string:
+				value += ' '
+			if mode == 2:
+				comment += ' '
 			cw = ''
 		elif cw == '{' and mode == 0 and string == False:
 			tree.append(parsed)

@@ -2,11 +2,11 @@
 #### **S**emicolon **C**ut **O**bject **N**otation
 A better way to dictionary 
 ## Build Info
-Version: 1.0 (Limited)  
-Build: Latest (Jan 20 2022 @ 6:21 PM EST)  
+Version: 1.0.1 (Limited)  
+Build: Latest (Jan 21 2022 @ 9:20 AM EST)  
 Platform: Stable
 ## Release Notes
-Inital Release
+- Fixed space issue
 ***
 ## Description:
 SCON (Pronounced: scone) is a versatile way for formmatting data and is loosely based on JSON, and can be used across multiple platforms.
