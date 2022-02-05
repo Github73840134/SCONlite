@@ -148,9 +148,10 @@ def parse(text):
 			tree.pop(len(tree)-1)
 			cw = ''
 			wastring = False
-			if type(tree[ldepth-1]) == dict:
-				value = ''
-				name = ''
+			if len(tree) != 0:
+				if type(tree[ldepth-1]) == dict:
+					value = ''
+					name = ''
 			waslist = True
 			ldepth -= 1
 		elif cw == "#":
